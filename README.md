@@ -15,13 +15,27 @@ https://github.com/user-attachments/assets/b816666e-ba09-4c44-b121-3114b0e266fc
 - **Model Management**: Easy switching between models
 
 ## Setup
+
+```
+git clone https://github.com/cyberkiddle/Cyberkiddle-monitoring-tool.git
+
+```
+
+### Debian pkg
 Since we have minimum of 2GB upload we need to separate between application deb file and model upload
 
 ```
+#Downloading the deb pkg and model .gguf
 wget https://github.com/cyberkiddle/Cyberkiddle-monitoring-tool/releases/download/cyberkiddle/cyberkiddle_deb-0.1.1-.deb
 wget https://github.com/cyberkiddle/Cyberkiddle-monitoring-tool/releases/download/cyberkiddle/orca-mini-3b-gguf2-q4_0.gguf
+
+# Installing the deb pkg
 sudo dpkg -i cyberkiddle_deb-0.1.1-.deb
+
+# copying the model to the right place
 sudo cp orca-mini-3b-gguf2-q4_0.gguf /usr/share/cyberkiddle/models/orca-mini-3b-gguf2-q4_0.gguf
+
+cyberkiddle #this will start app.
 ```
 
 ## Requirements
