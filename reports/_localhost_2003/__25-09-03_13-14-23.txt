@@ -1,0 +1,4 @@
+# Dirsearch started Wed Sep  3 13:14:28 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u localhost:2003/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+302   189B   http://localhost:2003/logout    -> REDIRECTS TO: /
+302   189B   http://localhost:2003/dashboard    -> REDIRECTS TO: /

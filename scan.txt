@@ -1,0 +1,22 @@
+# Nmap 7.95 scan initiated Sat Dec 20 15:50:22 2025 as: /usr/lib/nmap/nmap --privileged -oN scan.txt localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000060s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 986 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3000/tcp open  ppp
+5432/tcp open  postgresql
+7000/tcp open  afs3-fileserver
+7001/tcp open  afs3-callback
+7002/tcp open  afs3-prserver
+7004/tcp open  afs3-kaserver
+7007/tcp open  afs3-bos
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8090/tcp open  opsmessaging
+8888/tcp open  sun-answerbook
+9876/tcp open  sd
+
+# Nmap done at Sat Dec 20 15:50:22 2025 -- 1 IP address (1 host up) scanned in 0.15 seconds
