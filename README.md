@@ -53,7 +53,10 @@ source venv/bin/activate
 python3 gui_chat.py #Installing local needs for model environment then Ctrl ^C
 
 ```
-
+> How start any were the software
+```
+cyberkiddle #this will start app.
+```
 
 ## Requirements
 
