@@ -15,40 +15,14 @@ https://github.com/user-attachments/assets/b816666e-ba09-4c44-b121-3114b0e266fc
 - **Model Management**: Easy switching between models
 
 ## Setup
+Since we have minimum of 2GB upload we need to separate between application deb file and model upload
 
-1. **Install dependencies:**
-   ```bash
-   bash setup.sh
-   # or manually: pip install -r requirements.txt
-   ```
-
-2. **Place your models** in the `models/` directory (GGUF format)
-
-## Usage
-
-### Start Interactive Chat
-```bash
-python3 chat.py                    # Use default model
-python3 chat.py orca-mini.gguf     # Use specific model
 ```
-
-### List Available Models
-```bash
-python3 chat.py list
+wget https://github.com/cyberkiddle/Cyberkiddle-monitoring-tool/releases/download/cyberkiddle/cyberkiddle_deb-0.1.1-.deb
+wget https://github.com/cyberkiddle/Cyberkiddle-monitoring-tool/releases/download/cyberkiddle/orca-mini-3b-gguf2-q4_0.gguf
+sudo dpkg -i cyberkiddle_deb-0.1.1-.deb
+sudo cp orca-mini-3b-gguf2-q4_0.gguf /usr/share/cyberkiddle/models/orca-mini-3b-gguf2-q4_0.gguf
 ```
-
-### Commands (inside chat)
-- `clear` - Clear conversation history
-- `reset` - Reset the model
-- `quit` - Exit the chat
-
-## Supported Models
-
-Any GGUF format model works, including:
-- Orca Mini (3B, 7B, 13B)
-- Mistral 7B
-- Neural Chat
-- Other GGUF quantized models
 
 ## Requirements
 
