@@ -2,6 +2,11 @@
 
 This is a Python application for chatting with locally running LLM models.
 
+
+https://github.com/user-attachments/assets/b816666e-ba09-4c44-b121-3114b0e266fc
+
+
+
 ## Features
 
 - **Local Model Support**: Uses GGUF format models (like Orca-mini)
